@@ -1,0 +1,20 @@
+EasyReader V1.0 Build 2 Universal Platform
+
+
+For Install EasyReader:-
+
+1.)Before Running place the EasyReader Folder in the Following Location.
+	"C:\Program Files\Java"
+
+2.)After placing the Folder Double click on the EasyReader Application.
+
+Note:-
+
+use jre 7 update 6 or more
+
+
+For More:-
+
+	1.)Refer the Help option for the Usage of EasyReader Application.
+
+	Contact:kmanikandangce@gmail.com

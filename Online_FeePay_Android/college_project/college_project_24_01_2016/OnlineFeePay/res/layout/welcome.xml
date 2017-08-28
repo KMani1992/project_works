@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="@string/Welcome"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtwelcome"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/butGenerateExamFees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/butParentCreation"
+        android:layout_toLeftOf="@+id/butViewStstus"
+        android:text="Genarate Fees" />
+
+    <Button
+        android:id="@+id/butFeepay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/butGenerateExamFees"
+        android:layout_below="@+id/butViewStstus"
+        android:text="Fees Pay" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/butGenerateExamFees"
+        android:layout_below="@+id/butChangePassword"
+        android:text="@string/LogoutBtn" />
+
+    <Button
+        android:id="@+id/butUserCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/butGenerateExamFees"
+        android:layout_alignTop="@+id/txtuser"
+        android:layout_marginTop="16dp"
+        android:text="UserCreation" />
+
+    <Button
+        android:id="@+id/butParentCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butUserCreation"
+        android:layout_alignBottom="@+id/butUserCreation"
+        android:layout_toRightOf="@+id/butChangePassword"
+        android:text="Parent Creation" />
+
+    <Button
+        android:id="@+id/butChangePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butFeepay"
+        android:layout_alignBottom="@+id/butFeepay"
+        android:layout_alignLeft="@+id/butviewEditUser"
+        android:layout_alignParentRight="true"
+        android:text="Change Password" />
+
+    <Button
+        android:id="@+id/butEditUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/butGenerateExamFees"
+        android:layout_alignLeft="@+id/butChangePassword"
+        android:layout_alignParentRight="true"
+        android:text="Edit User" />
+
+    <Button
+        android:id="@+id/butbankAccountCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/logout"
+        android:text="Bank Account Creation" />
+
+    <Button
+        android:id="@+id/butViewStstus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butGenerateExamFees"
+        android:layout_alignBottom="@+id/butGenerateExamFees"
+        android:layout_alignLeft="@+id/butChangePassword"
+        android:layout_alignRight="@+id/butviewEditUser"
+        android:text="View Status" />
+
+    <Button
+        android:id="@+id/butviewEditUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/butbankAccountCreation"
+        android:layout_alignParentRight="true"
+        android:text="View and Edit User" />
+
+    <Button
+        android:id="@+id/butCreateFees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/logout"
+        android:layout_below="@+id/butbankAccountCreation"
+        android:text="Create Fees" />
+
+    <Button
+        android:id="@+id/butParentAccCreation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butCreateFees"
+        android:layout_alignBottom="@+id/butCreateFees"
+        android:layout_alignLeft="@+id/butviewEditUser"
+        android:layout_alignParentRight="true"
+        android:text="Parent Creation" />
+
+</RelativeLayout>

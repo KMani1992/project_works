@@ -1,0 +1,85 @@
+D:\TestNet\netmini\netmini\bin\Debug\netmini.exe
+D:\TestNet\netmini\netmini\bin\Debug\netmini.pdb
+D:\TestNet\netmini\netmini\bin\Debug\netmini.xml
+D:\TestNet\netmini\netmini\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.MDInetmini.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.Resources.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\TestNet\netmini\netmini\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.exe
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.xml
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.pdb
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmHeadAcc.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmSales.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.LoginForm.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmPurchese.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.Frmproduct.resources
+D:\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmOperator.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.exe
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.xml
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.pdb
+\\tnxserver\D$\TestNet\netmini\netmini\bin\Debug\netmini.exe
+\\tnxserver\D$\TestNet\netmini\netmini\bin\Debug\netmini.pdb
+\\tnxserver\D$\TestNet\netmini\netmini\bin\Debug\netmini.xml
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\ResolveAssemblyReference.cache
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmHeadAcc.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.Frmproduct.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmOperator.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmPurchese.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.FrmSales.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.LoginForm.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.MDInetmini.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\netmini.Resources.resources
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\GenerateResource.read.1.tlog
+\\tnxserver\D$\TestNet\netmini\netmini\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.exe
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.xml
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.pdb
+E:\Document\vb_Projets\netminibak\netmini\netmini\bin\Debug\netmini.exe
+E:\Document\vb_Projets\netminibak\netmini\netmini\bin\Debug\netmini.pdb
+E:\Document\vb_Projets\netminibak\netmini\netmini\bin\Debug\netmini.xml
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmHeadAcc.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.Frmproduct.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmOperator.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmPurchese.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmSales.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.LoginForm.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.MDInetmini.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.Resources.resources
+E:\Document\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.vbproj.GenerateResource.Cache
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.exe
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.xml
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.pdb
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\bin\Debug\netmini.exe
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\bin\Debug\netmini.pdb
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\bin\Debug\netmini.xml
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmHeadAcc.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.Frmproduct.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmOperator.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmPurchese.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmSales.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.LoginForm.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.MDInetmini.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.Resources.resources
+E:\Document\practice_pro\vb_Projets\netminibak\netmini\netmini\obj\x86\Debug\netmini.vbproj.GenerateResource.Cache
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.exe
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.xml
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.pdb
+E:\Software\back up project\Works\netminibak\netmini\netmini\bin\Debug\netmini.exe
+E:\Software\back up project\Works\netminibak\netmini\netmini\bin\Debug\netmini.pdb
+E:\Software\back up project\Works\netminibak\netmini\netmini\bin\Debug\netmini.xml
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmHeadAcc.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.Frmproduct.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmOperator.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmPurchese.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmSales.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.LoginForm.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.MDInetmini.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.Resources.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.vbproj.GenerateResource.Cache
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.FrmTransRpt.resources
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.vbprojResolveAssemblyReference.cache
+E:\Software\back up project\Works\netminibak\netmini\netmini\bin\Debug\netmini.exe.config
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\netmini.vbproj.ResolveComReference.cache
+E:\Software\back up project\Works\netminibak\netmini\netmini\bin\Debug\crystaldecisions.crystalreports.engine.dll
+E:\Software\back up project\Works\netminibak\netmini\netmini\obj\x86\Debug\Interop.CRDESIGNERLib.dll

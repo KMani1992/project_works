@@ -1,0 +1,15 @@
+<%@page import="java.sql.*"%>
+<% try
+{
+Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+Connection conn =DriverManager.getConnection("jdbc:odbc:access","","");
+Statement st=null;
+st=conn.createStatement();
+st.executeUpdate("update product set prod_name='mobile',quantity='2',price='2000' where prod_id=1");
+out.println("Data is updated successfully");
+}
+catch(Exception e){}
+%>
+
+Hope that it will be helpful for you.
+Thanks 

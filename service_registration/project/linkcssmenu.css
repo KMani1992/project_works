@@ -1,0 +1,265 @@
+.selectedanchor{ /*CSS class that gets added to the currently selected anchor link (assuming it's a text link)*/
+background: yellow;
+}
+
+
+/* ######### Default class for drop down menus ######### */
+
+.anylinkcss{
+	position: absolute;
+	left: 0;
+	top: 0;
+	visibility: hidden;
+	border: 1px solid black;
+	border-bottom-width: 0;
+	font: normal 12px Verdana;
+	line-height: 18px;
+	z-index: 100; /* zIndex should be greater than that of shadow's below */
+	background: lightyellow;
+	/* width: 160px; default width for menu */
+	background-color: #1D1C1A;
+	font-family:"Trajan Pro", Georgia, Arial, Verdana;
+	font-size:14px;
+	color:#FFFFFF;
+	
+}
+
+.anylinkcss ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.anylinkcss ul li a{
+width: 100%;
+display: block;
+text-indent: 3px;
+border-bottom: 1px solid black;
+padding: 5px ;
+text-decoration: none;
+font-weight: bold;
+text-indent: 5px;
+color:#FFFFFF;
+}
+
+.anylinkcss a:hover{ /*hover background color*/
+background: black;
+color: #c52a31;
+}
+
+/* ######### Alternate multi-column class for drop down menus ######### */
+
+
+.anylinkcsscols{
+position: absolute;
+left: 0;
+top: 0;
+visibility: hidden;
+border: 1px solid black;
+padding: 10px;
+font: normal 12px Verdana;
+z-index: 100; /*zIndex should be greater than that of shadow's below*/
+background: #DEFFCA;
+}
+
+.anylinkcsscols .column{
+width: 130px;
+float: left;
+}
+
+.anylinkcsscols .column ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.anylinkcsscols li{
+padding-bottom: 3px;
+}
+
+/* ######### class for shadow DIV ######### */
+
+
+.anylinkshadow{ /*CSS for shadow. Keep this as is */
+position: absolute;
+left: 0;
+top: 0;
+z-index: 99; /*zIndex for shadow*/
+background: black;
+visibility: hidden;
+}
+
+
+/* menu */
+
+#home, #homebottom
+{
+  display: block;
+  width: 69px;
+  height: 39px;
+  background: url("images/home.jpg") no-repeat 0 0;
+
+}
+
+#home:hover, #home.current, #homebottom:hover, #homebottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#home span, #homebottom span
+{
+  display: none;
+}
+
+#auto, #autobottom
+{
+  display: block;
+  width: 164px;
+  height: 39px;
+  background: url("images/auto.jpg") no-repeat 0 0;
+
+}
+
+#auto:hover, #auto.current,  #autobottom:hover, #autobottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#auto span, #autobottom span
+{
+  display: none;
+}
+
+#touring, #touringbottom
+{
+  display: block;
+  width: 90px;
+  height: 39px;
+  background: url("images/touring.jpg") no-repeat 0 0;
+
+}
+
+#touring:hover, #touring.current, #touringbottom:hover, #touringbottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#touring span, #touringbottom span
+{
+  display: none;
+}
+
+#test, #testbottom
+{
+  display: block;
+  width: 128px;
+  height: 39px;
+  background: url("images/testimonials.jpg") no-repeat 0 0;
+
+}
+
+#test:hover, #test.current, #testbottom:hover, #testbottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#test span, #testbottom span
+{
+  display: none;
+}
+
+#gallery, #gallerybottom
+{
+  display: block;
+  width: 80px;
+  height: 39px;
+  background: url("images/gallery.jpg") no-repeat 0 0;
+
+}
+
+#gallery:hover, #gallery.current, #gallerybottom:hover, #gallerybottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#gallery span, #gallerybottom span
+{
+  display: none;
+}
+
+#prices
+{
+  display: block;
+  width: 72px;
+  height: 39px;
+  background: url("images/prices.jpg") no-repeat 0 0;
+
+}
+
+#prices:hover, #prices.current
+{ 
+  background-position: 0 -39px;
+}
+
+#prices span
+{
+  display: none;
+}
+
+#booknow, #booknowbottom
+{
+  display: block;
+  width: 105px;
+  height: 39px;
+  background: url("images/booknow.jpg") no-repeat 0 0;
+
+}
+
+#booknow:hover, #booknow.current, #booknowbottom:hover, #booknowbottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#booknow span, #booknowbottom span
+{
+  display: none;
+}
+
+#contact, #contactbottom
+{
+  display: block;
+  width: 93px;
+  height: 39px;
+  background: url("images/contact.jpg") no-repeat 0 0;
+
+}
+
+#contact:hover, #contact.current, #contactbottom:hover, #contactbottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#contact span, #contactbottom span
+{
+  display: none;
+}
+
+#jeep, #jeepbottom
+{
+  display: block;
+  width: 105px;
+  height: 39px;
+  background: url("images/jeep.jpg") no-repeat 0 0;
+
+}
+
+#jeep:hover, #jeep.current, #jeepbottom:hover, #jeepbottom.current
+{ 
+  background-position: 0 -39px;
+}
+
+#jeep span, #jeepbottom span
+{
+  display: none;
+}
+

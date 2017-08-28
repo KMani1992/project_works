@@ -1,0 +1,337 @@
+/* CSS Document */
+
+body {
+	margin:10px 0 0 0;
+	padding:0 0 10px 0;
+	background:#000;
+	color:#fff; 
+	font-family:"Trajan Pro", Georgia, Arial, Verdana;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+}
+img{border:0;}
+
+a{
+	color: #fff;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+h2{
+font-size:18px;}
+h3{
+font-size:16px;}
+#wrap {
+	margin:0 auto;
+	background-color: #1E1B1B;
+	color:#000066;
+	width:990px;
+}
+
+#footer {
+clear:both;
+margin:0 auto;
+padding:5px 0 15px 0;
+width:980px;
+height:15px;
+color:#CCCCCC;
+background-color:#000000;
+font-size:10px;
+}
+
+#avmenu {
+	margin:0;
+	padding:10px 0px 10px 0;
+	background: #000000;
+	text-align:center;
+	color: #CCCCCC;
+	line-height:18px;
+	font-family:  "Trajan Pro", Georgia, Arial, Verdana;
+}
+
+#avmenu a,#avmenu a:active,#avmenu a:visited,#avmenu a:link{
+	color: #fff;
+	text-decoration:none;
+	font-size: 12px;
+	font-weight:normal;
+	text-decoration: none;
+	padding:0px 17px 0 17px;
+}
+#avmenu a:hover, #avmenu a.current{
+	text-decoration: none;
+	color:#D22A20;
+}
+
+#footerright{
+float:right;
+padding-right:10px;
+text-align:right;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#footerleft{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+float:left;
+padding-left:10px;
+text-align:left;
+}
+
+#footer p {
+padding:0;
+margin:0;
+}
+
+#footer a {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#CCCCCC;
+background-color:inherit;
+text-decoration:none;
+}
+
+#footer a:hover {
+text-decoration:underline;
+}
+
+
+/*	=4: Content
+==================
+*/
+.t2{
+margin:10px 0px 0px 0px;
+padding-bottom:0px; 
+font-size:28px;
+}
+
+.ptop{
+margin-top:10px;
+padding:0px;
+}
+.pbot{
+margin-bottom:10px;
+padding:0px;
+}
+
+
+#content2 {
+margin:0px;
+background:#1D1C1A url(../images/bottom-logo.png) bottom right no-repeat;
+padding:15px 15px 156px 15px;
+border-top:2px solid #FFFFFF;
+border-left:2px solid #FFFFFF;
+line-height:16px;
+}
+
+#content  {
+margin:0px;
+background:#1e1b1b url(../images/bottom-logo2.png) bottom right no-repeat;
+padding:15px 35px 115px 15px;
+border-top:2px solid #FFFFFF;
+border-left:2px solid #FFFFFF;
+line-height:16px;
+}
+#content tr {
+margin:0px;
+padding:0px;
+}
+
+#content a{
+color: #FFFFFF;
+text-decoration:underline;
+}
+#content a:hover{
+color: #FFFFFF;
+text-decoration:none;
+}
+
+#content3  {
+margin:0px;
+background:#1e1b1b url(../images/bottom-logo2.png) bottom right no-repeat;
+padding:0px 0px 115px 0px;
+border-top:2px solid #FFFFFF;
+border-left:2px solid #FFFFFF;
+line-height:16px;
+}
+#content3 tr {
+margin:0px;
+padding:0px;
+}
+
+#content3 a{
+color: #FFFFFF;
+text-decoration:underline;
+}
+#content3 a:hover{
+color: #FFFFFF;
+text-decoration:none;
+}
+
+#booknowc {
+margin:0px 0px 0px 0px;
+background:#1e1b1b url(../images/bottom-logo2.png) bottom right no-repeat;
+padding:15px 35px 115px 15px;
+border-top:2px solid #FFFFFF;
+border-left:2px solid #FFFFFF;
+line-height:16px;
+}
+
+#booknowc a{
+color: #FFFFFF;
+text-decoration:none;
+}
+#booknowc a:hover{
+color: #FFFFFF;
+text-decoration:underline;
+}
+
+#homepic {
+border-top:2px solid #FFFFFF;
+border-left:2px solid #FFFFFF;
+}
+
+#homecontent {
+margin:0px 0px 0px 0px;
+background:#1e1b1b url(../images/bottom-logo2.png) bottom right no-repeat;
+padding:0px;
+border-top:2px solid #FFFFFF;
+border-left:2px solid #FFFFFF;
+line-height:16px;
+}
+
+#homecontent table{
+padding:15px 35px 0px 15px;
+}
+
+.title{
+font-family:"Trajan Pro", Georgia, Arial, Verdana;
+font-size:18px;
+color:#c52a31;
+}
+
+.red{
+font-family:"Trajan Pro", Georgia, Arial, Verdana;
+color:#c52a31;
+}
+.red a{
+font-family:"Trajan Pro", Georgia, Arial, Verdana;
+color:#c52a31;
+text-decoration:underline
+}
+.red a:hover{
+font-family:"Trajan Pro", Georgia, Arial, Verdana;
+color:#c52a31;
+text-decoration:none;
+}
+
+.white{
+font-family:"Trajan Pro", Georgia, Arial, Verdana;
+color:#fff;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+#form2 textarea{	
+	border:1px solid #ddd;		
+	}
+#form2 input#name{background:#3D3D3D url('../images/form_name.gif') no-repeat 5px 50%; width:120px; margin:0; padding-left:25px; padding-right:5px; padding-top:1px; padding-bottom:1px}
+#form2 input#email{background:#3D3D3D url('../images/form_email.gif') no-repeat 5px 50%; width:120px; margin:0; padding-left:25px; padding-right:5px; padding-top:1px; padding-bottom:1px}
+#form2 input#pass{background:#3D3D3D url('../images/form_pass.gif') no-repeat 5px 50%; width:120px; margin:0; padding-left:25px; padding-right:5px; padding-top:1px; padding-bottom:1px}
+#form2 textarea#message{background:#3D3D3D url(../'images/form_note.gif') no-repeat 5px 6px; width:60px;margin:0; padding-left:25px; padding-right:5px; padding-top:1px; padding-bottom:1px }
+
+
+input {
+	color: #cacaca;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", verdana, arial, helvetica;
+	font-size: 1.1em;
+	font-weight: normal;
+	padding: 1px;
+	border: 1px solid #454545;
+	background-color: #494949;
+}
+
+textarea {
+	background-color: #000000;
+	color: #c1c1c1;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", verdana, arial, helvetica;
+	font-size: 1.2em; 
+	line-height: 1.3em;
+	font-weight: normal;
+	border: 1px solid #454545;
+	padding: 2px;
+}
+
+select {
+	color: #ffffff;
+	background-color: #3d3d3d;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", verdana, arial, helvetica;
+	font-size: 1.0em;
+	font-weight: normal;
+	border: 1px solid #454545;
+	padding: 1px;
+}
+
+option {
+	padding: 0 1em 0 0;
+}
+
+option.disabled-option {
+	color: graytext;
+}
+
+.homeimgrpad{padding-right:10px;}
+.homeimgrbpad{padding:0px 10px 10px 0px}
+.whitehr{
+margin:10px 0px;
+padding:0px;
+color:#FFFFFF;
+border:#FFFFFF 1px solid;
+}
+.green{color:#00cc00;}
+
+a#fdbk_tab {background-image: url(../images/sidebutton.gif);
+cursor:pointer;
+height:185px;
+right:0;
+margin-left:-7px;
+overflow:hidden;
+position:fixed;
+text-indent:-100000px;
+top:25%;
+width:42px;
+z-index:100000;
+}
+
+a#fdbk_tab:hover {
+margin-right:2px;
+}
+
+.newsbox {
+	padding-top: 5px;
+	padding-left: 10px;
+	height:37px;
+	line-height:140%;
+	float:left;
+	width: 900px;
+}
+#ajaxnewsbox {
+	float:left;
+}
+.newsticker {
+	list-style-type: none;
+
+}
+
+.text{
+	margin:10px 0 0 0;
+	padding:0 0 10px 0;
+	color:#fff; 
+	font-family:"Trajan Pro", Georgia, Arial, Verdana;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 16px;
+}

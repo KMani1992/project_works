@@ -1,0 +1,124 @@
+ 
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #444444;
+}
+.margin {
+	padding-right:0px;
+	padding-left:0px;
+}
+ul a{
+	font-weight: bold;
+	color: #9d651d;
+	text-decoration: none;
+}
+.call {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-bottom-style: dotted;
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.topbg {
+	background-image: url(images/topbg.gif);
+	background-repeat: repeat-x;
+} a {
+	color: #666666;
+	text-decoration: none;
+}
+.title {
+	background-image: url(images/title.jpg);
+	background-repeat: no-repeat;
+	font-family: "Trebuchet MS", Arial, sans-serif, helvetica, Verdana;
+	font-size: 18px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #BE272E;
+	padding-left: 60px;
+	letter-spacing: 1px;
+}
+.red {
+	color: #FF0000;
+}
+.txtfield {
+	font-size: 11px;
+	color: #000000;
+	border: 1px solid #0084D0;
+	font-family: Arial, Helvetica, sans-serif, "Tw Cen MT";
+}
+.imgbrdr {
+	padding: 1px;
+	border: 1px solid #8FBD20;
+}
+.bg {
+	background-image: url(images/corner.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #b7b7b8;
+	border-right-color: #b7b7b8;
+}
+.bike {
+	background-image: url(images/bike.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+.brdr {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #D9D9D9;
+}
+.button {
+	color: #001C76;
+	background-color: #F8C529;
+	border: 2px solid #8FBD20;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.bggrey {
+	background-color: #D7D6D2;
+}
+.grey {
+	font-size: 9px;
+	color: #999999;
+}
+.bluebg {
+	background-image: url(images/bg-blue.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+.greeen {
+	color: #006600;
+	font-size: 10px;
+	background-color: #EDEDED;
+	height: 15px;
+	width: 70px;
+	padding: 2px;
+	font-weight: bold;
+}
+.brdr-btm {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.title1 {
+	font-family: "Trebuchet MS", Arial, sans-serif, helvetica, Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #FF6600;
+}

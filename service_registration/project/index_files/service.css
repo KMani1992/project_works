@@ -1,0 +1,419 @@
+@charset "UTF-8";
+@import url("../../css/base.css");
+@import url("../../css/common.css");
+@import url("../../css/contents.css");
+
+
+
+/*------------------------------------------
+ Service Glossary
+--------------------------------------------*/
+
+.service-comm-block h2 {
+ font-size: 85%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.service-comm-block p {
+	margin-bottom: 20px;
+	line-height: 135%;
+	text-align: justify;
+}
+.glossary-bl-type1 {
+ width: 340px;
+}
+.glossary-br-type1 {
+ width: 196px;
+}
+.glossary-bl-type2 {
+ width: 269px;
+}
+.glossary-br-type2 {
+ width: 263px;
+}
+.glossary-bl-type1,
+.glossary-bl-type2 {
+ float: left;
+}
+.glossary-br-type1,
+.glossary-br-type2 {
+ float: right;
+}
+
+
+
+
+/*------------------------------------------
+ Service Schedule
+--------------------------------------------*/
+
+.schedule-box ul {
+	background-image: url(../../common_img/dotline.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	padding-bottom: 20px;
+	width: 300px;
+}
+.schedule-box li {
+	list-style-type: none;
+	font-size: 70%;
+	padding-bottom: 5px;
+}
+.schedule-box li span {
+	display: block;
+}
+.schedule-lb {
+ width: 60px;
+}
+.schedule-cb {
+ width: 25px;
+}
+.schedule-rb {
+	width: 215px;
+}
+.schedule-lb,.schedule-cb,.schedule-rb {
+ float: left;
+}
+
+
+
+
+/*------------------------------------------
+ Service Schedule
+--------------------------------------------*/
+
+.chart-box {
+ font-size: 70%;
+}
+.chart-box .chart th {
+	font-weight: bold;
+	padding-right: 30px;
+	color: #FFFFFF;
+	background-color: #737373;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFFFFF;
+	letter-spacing: 0.1em;
+}
+.chart-box .chart td {
+	vertical-align: top;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	background-image: url(../../common_img/dotline.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	color: #737373;
+}
+.chart-box .chart th,
+.chart-box .chart td {
+ text-align: left;
+	padding-left: 5px;
+}
+
+
+
+
+
+/*------------------------------------------
+ Service Maintenance
+--------------------------------------------*/
+
+.mainte h2 {
+ margin: 0px;
+}
+.mainte td .pull {
+ font-size: 70%;
+	width: 100px;
+}
+.mainte {
+ margin-top: 20px;
+	border: 1px solid #999999;
+	color: #737373;
+}
+.mainte p {
+	margin-bottom: 0px;
+}
+.mainte th {
+	/*border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;*/
+}
+.mainte th p {
+	font-weight: bold;
+	font-size: 80%;
+}
+.mainte td p {
+	font-size: 70%;
+	text-align: center;
+}
+.mainte td img.pop-arrow {
+	vertical-align: middle;
+	margin-left: 3px;
+}
+.mainte td a {
+	text-decoration: none;
+}
+.mainte td a:hover {
+	text-decoration: underline;
+}
+.mainte th,.mainte td {
+	text-align: left;
+	/*width: 25%;*/
+	padding: 5px;
+	vertical-align: top;
+}
+
+/*.upperTable {
+ margin-top: 20px;	
+	border: 1px solid #999999;
+	color: #737373;
+}
+.upperTable .serv{
+
+	width: 66%;
+	height:10px;
+	
+}
+
+.upperTable .serv h2{
+
+	margin:5px;clear:both;
+	height:20px;background-color:red;
+	padding:0px;
+	margin:0px;
+	
+	}
+
+
+.upperTable td .pull {
+ font-size: 70%;
+	width: 100px;
+	margin-left:5px;float:left;
+	
+}
+
+.upperTable td {
+	text-align: left;
+	width: 25%;
+	padding: 5px;
+	
+}
+*/
+
+/*popup window--------------------------*/
+
+
+#pop-body-block {
+	width: 565px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#pop-block {
+	padding-top: 30px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	color: #686868;
+}
+#pop-block h1 {
+ font-size: 85%;
+	font-weight: bold;
+}
+.pop-box {
+ padding-bottom: 20px;
+}
+.pop-bl {
+ float: left;
+	width: 270px;
+}
+.pop-br {
+ float: right;
+	width: 255px;
+}
+
+.pop-bl p {
+	font-size: 70%;
+	line-height: 135%;
+	margin-bottom: 25px;
+}
+
+/*********service schedule images*****/
+
+#top-contents_r15
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/service-schedule-yzfr15_03.gif");
+    width:576px;
+   height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_fazer
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/Fazer_03.gif");
+    width:576px;
+    height:252px;		
+    background-repeat: no-repeat;
+}
+#top-contents_fzs
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/FZS_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_fz
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/FZ16_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_szr
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/SZR_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_szx
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/SZX_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_sz
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/SZ_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_ss125
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/SS125_03.gif");
+    width:576px;
+    height:252px;		
+    background-repeat: no-repeat;
+}
+#top-contents_ybr125
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/YBR125_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+#top-contents_ybr110
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/YBR110_03.gif");
+    width:576px;
+   height:252px;		
+    background-repeat: no-repeat;
+}
+#top-contents_crux
+{
+	
+	margin:0px;
+	padding:0px;
+	background-image: url("../service_schedule/img/Crux_03.gif");
+    width:576px;
+    height:252px;	
+    background-repeat: no-repeat;
+}
+
+
+p.headLabel
+{
+	color:#CC1533;
+	padding-left:21px;
+	padding-top:15px;
+	font-weight:bold;
+	font-family: COMIC SANS MS;
+	}
+
+.bdcorner-gry1 {
+    background-image: url("../common_img/dotline2.gif");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+#comm-block-bikes ul li{
+ float: left;
+    list-style: none outside none;
+	padding-left:10px;
+	padding-top:5px;
+	}
+	
+	#comm-block-bikes .service-comm-block{
+	margin-left:8px;
+	margin-top:12px;
+	}
+	
+	#comm-block-bikes .service-comm-block1{
+   
+    margin-top: 12px;
+}
+
+
+
+
+
+.topImage
+{
+
+
+clear:both;
+margin-bottom:12px;
+}
+
+
+.heading_table{
+font-size:90%;
+font-weight:bold;
+border-bottom:1px solid #999999;
+color:#CC1533;
+
+font-family:COMIC SANS MS;
+
+}
+
+.heading_table1 p{
+color:#CC1533;
+
+font-family:comic sans ms;
+
+}
+
+

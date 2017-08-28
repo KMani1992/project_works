@@ -1,0 +1,34 @@
+.contentBoxRed{background:url(../images/contentBoxRedBg.png) repeat-y scroll 0 0 transparent; border:1px solid #ffffff; height:300px; overflow: hidden;}
+.stepNosDisplayDiv{height:72px; margin:8px 8px 23px 9px; padding-top:16px; width:867px;}
+.no_left{float:left; margin-left:62px; width:430px;}
+
+
+/*STEP TWO CSS START HERE -- ON 17-11-2010 */
+.stepData_holderDiv{ height:auto; margin:15px 8px 51px 9px; width:867px;}
+.step2FormWrap{height:auto; min-height:470px; width:867px;}
+.step2DataLeft{float:left; height:auto; min-height:423px; margin-bottom:3px; margin-right:2px; width:434px;}
+.step2DataRight{float:left; height:auto; min-height:423px; margin-bottom:3px; width:431px;}
+.step2Form_wrap{ margin-top:3px; width:867px;}
+.step2FormBlock{height:auto; margin-left:27px; margin-right:5px; margin-bottom:20px; padding-top:0px; width:836px;}
+.step2FormBlock h2{color:#F82A24;font-family:Arial;font-size:14px;font-weight:bold;padding-bottom:12px;            padding-left:0; padding-top:0px; text-decoration:none;}
+.step2Large_formtextarea{ background-color:#fff; border:1px solid #b3b3b3; padding-top:0; height:77px; margin-top:0px; .margin-left:-27px; width:818px;}                        
+.step2_Left_Top{background:url(../images/step2_Top434.png) no-repeat scroll 0 0 transparent; height:5px; width:434px;}
+.step2_Left_Mid{background:url(../images/step2_Mid434.png) repeat-y scroll 0 0 transparent; height:auto; min-height:460px; width:434px;overflow:hidden;}
+.step2_Left_Bottom{background:url(../images/step2_Bottom434.png) no-repeat scroll 0 0 transparent; height:5px; width:434px;}
+.step2_Right_Top{background:url(../images/step2_Top431.png) no-repeat scroll 0 0 transparent; height:5px; width:431px;}
+.step2_Right_Mid{background:url(../images/step2_Mid431.png) repeat-y scroll 0 0 transparent; height:auto; min-height:460px; width:431px;overflow:hidden;}
+.step2_Right_Bottom{background:url(../images/step2_Bottom431.png) no-repeat scroll 0 0 transparent; height:5px; width:431px;}
+.step2Left_formblock{ float:left; width:386px; margin-left:28px; margin-top:10px;}
+.step2Left_formblock .leftCol{ color:#444444; float:left; font-family: Arial; font-size:14px; font-weight: normal; text-decoration:none; padding-bottom:5px; width:130px; }
+.step2Left_formblock .rightCol{ color:#444444; float:left; font-family: Arial; font-size:14px; font-weight: normal; text-decoration:none; padding-bottom:5px; width:256px; }
+.forminput222{background-color:#fff; border:1px solid #b3b3b3; padding-top:0; color:#464646; font-family: Verdana; font-size:12px; font-weight: normal; height:18px; width:222px;}
+.Selectbox224{background-color:#fff; border:solid 1px #b3b3b3; color:#464646; font-family: Verdana; font-size:12px; font-weight: normal; height:20px; width:224px;}
+.step2Left_formblock h2{ color:#F82A24;font-family:Arial;font-size:14px;font-weight:bold;padding-bottom:12px;            padding-left:0; padding-top:0px; text-decoration:none;}              
+.step2Left_formblock p{color:#444444; font-family: Arial; font-size:14px; font-weight: normal; text-decoration:none;}
+.bikeConditionDiv{margin-left:28px; height:auto; width:818px; }
+.bikeConditionDiv h2{ color:#F82A24;font-family:Arial;font-size:14px;font-weight:bold; padding-bottom:12px; padding-left:0; padding-top:0px; text-decoration:none;}
+.bikeConditionDiv div{ float:left;}
+.bikeConditionDiv div table td{ color:#444444; font-family: Arial; font-size:14px; font-weight: normal; padding-bottom:5px; text-decoration:none;}
+.selectStep2{background-color:#fff; border:solid 1px #b3b3b3; color:#464646; font-family: Verdana; font-size:12px; font-weight: normal; height:20px; width:145px;}
+/*STEP TWO CSS ENDS HERE*/
+

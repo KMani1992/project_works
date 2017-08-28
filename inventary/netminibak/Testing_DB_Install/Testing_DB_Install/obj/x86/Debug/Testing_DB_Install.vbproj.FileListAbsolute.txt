@@ -1,0 +1,21 @@
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\bin\Debug\Testing_DB_Install.exe
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\bin\Debug\Testing_DB_Install.pdb
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\bin\Debug\Testing_DB_Install.xml
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.FrmDbInstall.resources
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.Resources.resources
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.vbproj.GenerateResource.Cache
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.exe
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.xml
+C:\Users\acer\Desktop\Testing\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.pdb
+E:\Software\back up project\Works\DB_Installation\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.exe
+E:\Software\back up project\Works\DB_Installation\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.xml
+E:\Software\back up project\Works\DB_Installation\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.pdb
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.exe
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.xml
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.pdb
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\bin\Debug\Testing_DB_Install.exe
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\bin\Debug\Testing_DB_Install.pdb
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\bin\Debug\Testing_DB_Install.xml
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.FrmDbInstall.resources
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.Resources.resources
+E:\Software\back up project\Works\netminibak\Testing_DB_Install\Testing_DB_Install\obj\x86\Debug\Testing_DB_Install.vbproj.GenerateResource.Cache

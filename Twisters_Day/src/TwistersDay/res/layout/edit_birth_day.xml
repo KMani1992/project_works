@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >	 					
+
+	 					<EditText
+	 					    android:id="@+id/eTenamelbl"
+	 					    android:layout_width="fill_parent"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignParentLeft="true"
+	 					    android:layout_alignParentTop="true"
+	 					    android:layout_marginTop="17dp"
+	 					    android:clickable="false"
+	 					    android:editable="false"
+	 					    android:ems="10"
+	 					    android:focusable="false"
+	 					    android:focusableInTouchMode="false"
+	 					    android:text="Enter Name" />
+
+	 					<EditText
+	 					    android:id="@+id/eteName"
+	 					    android:layout_width="fill_parent"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignParentLeft="true"
+	 					    android:layout_below="@+id/eTenamelbl"
+	 					    android:ems="10"
+	 					    android:inputType="textPersonName" >
+	 					    <requestFocus />
+	 					 </EditText>
+	 					
+
+	 					<EditText
+	 					    android:id="@+id/eTedoblbl"
+	 					    android:layout_width="fill_parent"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignParentLeft="true"
+	 					    android:layout_below="@+id/eteName"
+	 					    android:layout_marginTop="33dp"
+	 					    android:clickable="false"
+	 					    android:editable="false"
+	 					    android:ems="10"
+	 					    android:focusable="false"
+	 					    android:focusableInTouchMode="false"
+	 					    android:text="Enter D.O.B" />
+	 					
+	 					
+	 					<EditText
+	 					    android:id="@+id/eTedob"
+	 					    android:layout_width="fill_parent"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignParentLeft="true"
+	 					    android:layout_below="@+id/eTedoblbl"
+	 					    android:ems="10"
+	 					    android:inputType="date"
+	 					    android:text="dd/mm/yyyy" >
+	 					    
+	 					</EditText>
+	 					
+	 					<EditText
+	 					    android:id="@+id/eTeactivelbl"
+	 					    android:layout_width="wrap_content"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignParentLeft="true"
+	 					    android:layout_below="@+id/eTedob"
+	 					    android:layout_marginTop="29dp"
+	 					    android:clickable="false"
+	 					    android:editable="false"
+	 					    android:ems="10"
+	 					    android:focusable="false"
+	 					    android:focusableInTouchMode="false"
+	 					    android:text="Active" />
+	 					
+	 					<Button
+	 					    android:id="@+id/btnupdate"
+	 					    android:layout_width="fill_parent"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignParentLeft="true"
+	 					    android:layout_below="@+id/eTeactivelbl"
+	 					    android:layout_marginTop="70dp"
+	 					    android:text="Update" />
+
+	 					<ToggleButton
+	 					    android:id="@+id/toggleBtnActive"
+	 					    android:layout_width="wrap_content"
+	 					    android:layout_height="wrap_content"
+	 					    android:layout_alignBaseline="@+id/eTeactivelbl"
+	 					    android:layout_alignBottom="@+id/eTeactivelbl"
+	 					    android:layout_toRightOf="@+id/eTeactivelbl"
+	 					    android:text="ToggleButton" />
+    
+    </RelativeLayout>
+

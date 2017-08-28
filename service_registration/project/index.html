@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Durairaj auto works</title>
+<meta name="description" content="Hello welcome to Durairaj Auto Works we are a specialised Motorcycle Service, Maintenance and Repair centre" />
+<meta name="keywords" content="durai raj duto works,durairaj auto work,durairaj auto work,asaripallam,pampanvilai,two wheeler workshop,bike workshop,kanddpan,auto works,nagercoil,manikandangce,durairaj,durairajawngl,bikeworksnglasap,durajrajautoksnglasap" />
+<meta http-equiv="content-type" content="http:\\www.durairajawngl.appspot.com" />
+
+
+
+
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+function checkadmin()
+{
+	document.getElementById("log").style.display="block";
+	document.getElementById("clos").style.display="block";
+	//alert("admin");
+	//return true;
+}
+function closeoper()
+{
+	document.getElementById("clos").style.display="none";
+	document.getElementById("log").style.display="none";
+}
+
+function checkadminlog()
+{
+	var a=document.forms[0].usname.value;
+	var b=document.forms[0].pass.value;
+	if(a==""&&b=="")
+	{
+		alert("please Enter User name and Password.");
+		return false;
+	}
+	if(a=="")
+	{
+		alert("please Enter User name.");
+		return false;
+	}
+	if(b=="")
+	{
+		alert("please Enter and Password.");
+		return false;
+	}
+	if(a!="admin"&&b!="drauworks")
+	{
+		alert("please Check the User name and Password");
+		return false;
+	}
+	
+	//alert("hello");
+	return true;
+}
+
+</script>
+<style type="text/css">
+.button {
+	color: #001C76;
+	background-color: #F8C529;
+	border: 2px solid #8FBD20;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+</style>
+
+</head>
+<body bgcolor="#ffffff">
+<div class="align">
+<table align="right" cellpadding="2px" cellspacing="2px" style="margin-right:180px" >
+<tr><td class="userelcome">Admin</td>
+<td>|</td><td><a  onclick="checkadmin()" href="#" style="color:#000">Login</a></td>
+</tr>
+</table>
+</div>
+<div id="log" style=" padding-left:700px; background-color:#FFF; width:255px; height:33px; border-width:medium; border:#FFF; border-style:solid; display:none">
+<table align="center" bgcolor="#81c3ff" style="color:#000">
+<tr><td><form action="adminpage.jsp" method="post" onsubmit="return checkadminlog();"></td><td>
+<input type="text" name="usname" id="usname" size="8" value="User Nmae" /></td><td>
+<input type="password" value="Password" name="pass" size="8" id="pass" /></td><td>
+<input class="button" type="submit" value="Login" /></td><td><img width="20px" height="20px" src="images/close.png" id="clos" onclick="closeoper()" />
+</form></td></tr></table>
+</div>
+
+<center>
+<div id="banner">
+</div></center>
+<!--
+<table id="navigation" cellpadding="2px" cellspacing="2px" align="center">
+<td class="navi" align="center"><a href="general.html" target="ifram">HOME</a></td>
+<td class="navi" align="center"><a href="services/sales.html" target="ifram">SALES</a></td>
+<td class="navi" align="center"><a href="services/servicemaintanence.html" target="ifram">SERVICES</a></td>
+<td class="navi" align="center"><a href="services/manual.html" target="ifram">MANUAL GUIDES</a></td>
+<td class="navi" align="center"><a href="services/aboutus.html" target="ifram">ABOUT US</a></td>
+<td class="navi" align="center"><a href="services/contact.html" target="ifram">CONTACT Us</a></td>
+</tr>
+</table>-->
+<center>
+    <div id="navigation">
+			<ul>
+            	<li id="active"><a href="general.html" target="ifram">Home</a></li>
+                <li><a href="services/sales.html" target="ifram">Sales</a></li>
+                <li><a href="services/servicemaintanence.html" target="ifram">Services</a></li>
+				<li><a href="services/manual.html" target="ifram">Manual</a></li>
+                <li><a href="services/aboutus.html" target="ifram">About Us</a></li>
+				<li><a href="services/contact.html" target="ifram">Contact Us</a></li>
+				<li><a href="login.jsp" target="ifram">Login</a></li>
+   	            <li><a href="booking-service.html" target="ifram">Booking for service</a></li>
+				<!--<li><a href="navigation.html">Contact Us</a></li>-->
+			</ul>
+	</div>    
+
+</center><div>
+<div id="left">
+<table style="margin-top:0px; padding-top:opx; white-space:0px">
+<tr><td><img src="new/bikecare.png" / width="149" height="36"></td></tr>
+<tr><td><a href="booking-service.html" target="ifram"><img src="new/pserviceurcar.png" width="200" height="61"/></a></td></tr>
+<tr><td><a href="services/sales.html" target="ifram"><img src="new/ptobuyold.png" width="200" height="61"/></a><p></p></td></tr>
+<tr><td><a href="services/insurencerenew.html" target="ifram"><img src="new/homebtmo.png" width="200" height="61"/></a><p></p></td></tr>
+<br /><br />
+<table cellpadding="2" cellspacing="0">
+
+<tr><td align="center" width="180px" style="padding-top:0px;margin:0,auto;border-bottom:dotted thin #666;background:#8fcaf2" class="tipps">Safty Tips For
+<br />After the Initial 500 Miles...</td></tr>
+<tr style="padding-top:0px; margin-top:0px auto"><td class="safcont">
+<ol type="1" style="text-align:left; background-color:#cee6f4" class="safcont">
+<li>Change Engine Oil.</li>
+<li>Inspect oil lines and <br />Brake System for Leaks.</li>
+<li>Check Operation of <br />Electrical Equipment &amp; Switches.</li>
+<li>Change Transmission Lubricant &amp; Clean <br>Magnetic Drain Plug.</li>
+<li>Check Rear Shock Absorbers.</li>
+<li>Check Wheel Spoke Tightness.</li>
+<li>Check Rear Fork Pivot Nut.</li></ol>
+
+</td></tr>
+</table>
+</table>
+</div>
+
+<div id="center">
+<iframe id="iframe" scrolling="no" frameborder="0" src="general.html" name="ifram" hspace="0px" marginwidth="0px" vspace="0px" 
+marginheight="0px">
+</iframe>
+</div>
+<div id="right" style="padding:3px">
+<table cellpadding="0px" cellspacing="0px"><tr><td onmouseover="send()"><img src="new/ourservices.jpg" /></td></tr>
+<tr><td><a href="services/servicemaintanence.html" target="ifram"><img src="new/service.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/alteration.html" target="ifram"><img src="new/alteration.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/accident.html" target="ifram"><img src="new/accedint.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/insurancerenewal.html" target="ifram"><img src="new/insurence.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/paintjop.html" target="ifram"><img src="new/paintjop.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/tyres.html" target="ifram"><img src="new/tyres.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/vulcanizing.html" target="ifram"><img src="new/vulcanizing.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/grooming.html" target="ifram"><img src="new/exterior.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/towingservices.html" target="ifram"><img src="new/towing.png" width="200" height="24" /></a></td></tr>
+<tr><td><a href="services/teflontreatment.html" target="ifram"><img src="new/teflon.png" width="200" height="24" /></a></td></tr>
+</table><br /><br />
+<table cellpadding="3" cellspacing="0" id="news" style="border:solid #058cea" align="center">
+
+<tr><td align="center" style="padding-top:0px;margin:0, auto;border-bottom:dotted thin #666;background:#8fcaf2" class="newsoff">News and Offers *</td></tr>
+<tr><td>
+<marquee direction="up" align="middle" onmouseout="this.start()" onmouseover="this.stop()" scrolldelay="100">
+<center><font style="text-decoration:none"><br />Welcome To Durairaj Auto</font>
+<br /><br />Take 3 Simultaneously &<br />
+Get FREE 4th Service
+</center>
+</marquee><br>
+</td></tr>
+</table>
+<table cellpadding="0px" cellspacing="0px" style="color:#666; margin-top:33px" width="190px">
+<td align="center" ><a href="general.html" target="ifram" style="color:#666">home</a></td>
+<td align="center"><a href="services/sales.html" target="ifram" style="color:#666">sales</a></td></tr><tr>
+<td align="center"><a href="services/servicemaintanence.html" target="ifram" style="color:#666">services</a></td>
+<td align="center"><a href="services/manual.html" target="ifram" style="color:#666">manual</a></td>
+<td align="center"><a href="services/contact.html" target="ifram" style="color:#666">contact</a></td>
+</table>
+<span style="color:#666; padding-left:3px">&nbsp;&nbsp;Designed By: <a href="http:\\durairajautoksnglasap.appspot.com" style="color:#001842;padding-left:3px">kmanikandan@gce</a>
+</span>
+</div>
+</div>
+</body>
+</html>

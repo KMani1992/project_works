@@ -1,0 +1,388 @@
+@CHARSET "ISO-8859-1";
+body,html{
+	padding: 0;
+	margin: 0;
+	}
+a{
+	text-decoration: none;
+	te
+	}
+#welcomeheader{
+	padding: 0;
+	margin: 0;
+	width:100%;
+	height:30px;
+	background-color: #001842;
+	color: #ffffff;
+	}
+	#welcomeheaderleft{
+	float:left;
+	width:75%;
+	height:100%;
+	padding-top: 10px;	
+	padding-left: 10x;
+	}
+	#welcomeheaderleft img{
+	width: auto;
+	height: auto;
+	z-index: 1000;
+	margin-top: -6px;
+	margin-left: 50px;
+	}	
+	#welcomeheaderright{
+	float:right;
+	width:25%;
+	height:100%;
+	padding-top: 10px;
+	padding-right: 10x;	
+	}
+	#welcomeheaderright > a{
+	text-decoration: none;
+	color: #ffffff;
+	}
+	#welcomeheaderright > a:hover{
+	color: #09F;
+	}
+	#welcomeheaderleft > a{	
+	padding-left:10px;	
+	}
+	#wel_logo{
+	width: 50px;
+	height: 70%;
+	border:1px;	
+	}
+	#pagehead{
+	color:white;
+	background-color:  #1b4080;
+	font-weight: bold;
+	text-align: center;
+	
+	}
+	#registrinner{
+	margin:0px;
+	padding:0px;
+	margin:0 auto;	
+	background-color: white;
+	width: 900px;
+	height: 500px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;	
+	opacity:0.7;
+	margin-top:30px;		
+	}
+	#registrinnerhead{
+	margin:0px;
+	padding:0px;	
+	background-color: #1b4080;
+	width: 100%;
+	height: 100px;	
+	}
+	#registrinnerheadleft{
+	margin:0px;
+	padding:0px;
+	width: 100px;
+	height: 100%;
+	float: left;		
+	}
+	#registrinnerheadleft img{
+	padding: 2px;
+	margin:5px;
+	width: 80px;
+	height: 80px;
+	border: 2px;
+	border-color: silver;
+	border-style: solid;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-o-border-radius:2px;	
+	}
+	#registrinnerheadright{
+	float:right;
+	width: 600px;
+	height: 100%;
+	}
+	#registrinnerheadright table{
+	color:white;
+	border: none;		
+	float: left;
+	left:200px;
+	top:5px;
+	padding-top: 20px;	
+	}
+	.bokrgmbkdt{
+	font-weight: bold;
+	font-size: 12px;
+	font-family: verdana;
+	padding: 3px;
+	padding-right: 5px;	
+
+	}
+	.bokrgmbkdtval{
+	font-weight: normal;
+	font-size: 12px;
+	font-family: verdana;
+	padding: 3px;	
+	padding-right: 5px;
+	height:auto;	
+	}
+	#registrinnerpbm{
+	width:100%;
+	height:100%;	
+	}
+	#registrinnerpbminner{
+	width:100%;
+	height:100%;
+	}
+	#probregtb{
+	padding:0;
+	margin:0;	
+	margin:0 auto;
+	margin-top: 15px;
+	}
+	
+	#pbid {
+	width:623px;
+	height:211px;
+	
+	} 
+	.pghd{
+	height:15px;
+	width:100%;	
+	color:black;
+	font:verdana;
+	font-size:14px;
+	font-weight:bold;	
+	border-bottom:5px;
+	border-bottom-style:solid;
+	border-bottom-width:medium;
+	border-bottom-color:gray;
+	padding-bottom:15px;		
+	}
+	#profupd{
+	margin: 0px;
+	padding: 0px;
+	width:623px;
+	height:211px;
+	margin: 0 auto;
+	margin-top: 20px;	
+	display:none;
+	}
+	
+	#profupdtb{
+	padding:0;
+	margin:0;	
+	margin-top:15px;
+	}
+	
+	.preofilelables{
+	margin: 0px;
+	padding: 0px;
+	width:350px;
+	height:20px;
+	
+	}
+	.txtpu{
+	margin: 0px;
+	padding: 0px;
+	width:300px;
+	height:40px;
+	}
+	#profupdvspc{
+	height:15px;
+	}
+	#chngpwd{
+	margin-top: 15px;
+	}	
+	#pwordchng{
+	display:none;
+	}
+	#pwordchng{
+	margin: 0px;
+	padding: 0px;
+	width:623px;
+	height:211px;
+	margin: 0 auto;
+	margin-top: 20px;	
+	display:none;
+	}
+	#goback{
+	margin-top: 15px;
+	}
+	#regstatus{
+	margin: 0px;
+	padding: 0px;
+	width:623px;
+	height:211px;
+	margin: 0 auto;
+	margin-top: 20px;
+		
+	}
+	#regstatuscontent_1{
+	margin:0px; 
+	width:100%;
+	height:100%; 
+	padding:2px; 
+	overflow:auto; 
+	margin-top:0px;
+	-webkit-border-radius:3px; 
+	-moz-border-radius:3px; 
+	border-radius:3px;
+	margin: 0 auto;
+	
+	
+	}
+	#regstatuscontent_1 table{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	width:97%;
+	height:auto;
+	margin-top: 15px;		
+	}
+	.regstsmryct{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	height:40px;
+	width:100%;
+	border:1px;
+	border-color: #bdbfc2;
+	border-width:1px;
+	border-style: solid;
+	box-shadow:0 2px 18px 3px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0,0,0,0.5);	
+	margin-bottom: 5px;	
+	cursor: pointer;		
+	}
+	.regstsmryct:hover{
+	background-color: #dceffb;	
+	box-shadow:0 2px 22px 3px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0,0,0,0.3);
+	}
+	.clsrerstctop{
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	width:100%;
+	height:20px;	
+	text-align: justify;
+	font-family:arial;
+	font-size:14px;	
+	padding: 2px;
+	padding-left: 5px;
+	}
+	.clsrerstcbtm{
+	margin: 0px;
+	padding: 0px;	
+	width:100%;
+	height:5px;
+	padding-bottom: 1px;
+	margin-bottom: 1px;
+	}
+	.clsrerstcbtmlft{
+	margin: 0px;
+	padding: 0px;	
+	width:40%;
+	float:left;
+	height:100%;
+	text-align: left;
+	padding-left: 5px;
+	}
+	.clsrerstcbtmrgt{
+	margin: 0px;
+	padding: 0px;	
+	width:60%;
+	float:right;
+	height:100%;
+	text-align: right;
+	padding-right: 5px;
+	}
+	.rgstbt{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: arial;
+	}
+	.rgstst{
+	font-size: 10px;
+	font-weight: bold;
+	font-family: arial;
+	}
+	.regststats{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: arial;
+	width: 99%;
+	text-align: right;
+	margin-top: 2px;	
+	}
+	#rgstttr{
+	font-weight:lighter;
+	}
+	#popupwinhead{
+	margin:0px;
+	padding:0px;
+	margin:0 auto;
+	margin-top:25px;
+	left:2px;	
+	width:724px;	
+	text-align:left;
+	font:verdana;
+	padding-bottom:2px;
+	padding-left:3px;
+	font-size:18px;
+	font-weight:bold;	
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#615f5f;			
+	}
+	#ppwpghsbt{
+	font-size: 12px;
+	font-family: verdana;
+	font-weight:bold;		
+	text-align: left;
+	padding-left: 310px;	
+	}
+	#sbtregid{
+	font-family: arial;
+	font-size: 12px;	
+	font-weight:lighter;	
+	text-align: right;	
+	}
+	#ppwincnt{
+	margin:0px;
+	padding:0px;
+	margin:0 auto;
+	margin-top:5px;
+	left:2px;	
+	width:724px;
+	height:220px;
+	overflow:auto;	
+	display:none;
+	}
+	#pbregstdetviw{
+	margin:0px;
+	padding:0px;
+	margin:0 auto;			
+	width:97%;
+	height:auto;		
+	}
+	.ppwth{
+	font-size: 13px;
+	font-family: verdana;
+	font-weight:bold;		
+	text-align: left;
+	width: auto;
+	padding-left: 10px;	
+	}	
+	.ppwtr{
+	font-size: 13px;
+	font-family: arial;
+	font-weight:300;		
+	text-align: left;
+	width: auto;
+	padding-left: 10px;
+	padding-top: 7px;
+	padding-bottom:1px;
+	border-bottom-style:dashed;
+	border-bottom-width:1px;
+	border-bottom-color:#817e7e;
+	}

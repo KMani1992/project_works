@@ -1,0 +1,3 @@
+how to create input hidden element 
+how to store values and how to create id 
+how to access id element on clicking

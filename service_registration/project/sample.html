@@ -1,0 +1,99 @@
+	
+
+Based on the question and answers above, I was able to simplify the jquery code to get something closer to what I needed. The HTML is ugly, and there's a full menu bar in here to put the drop down menu in context.
+
+<html>
+<head>
+  <style>
+#menu {
+}
+
+#menu ul {
+  margin: 0;
+  padding: 8px 0px 0px 0px;
+  list-style: none;
+  line-height: normal;
+}
+
+#menu li {
+  display: block;
+  float: left;
+}
+
+#menu a,#menu span {
+  display: block;
+  float: left;
+  height: 28px;
+  background: #34579D;
+  margin-right: 3px;
+  padding: 8px 15px 0px 15px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+#menu .drop-menu {
+  cursor: pointer;
+}
+
+#menu li ul {
+  display: none;
+  position: absolute;
+  margin-top: 31px;
+}
+
+#menu li ul li {
+  background: #FFFFFF;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FFFFFF;
+}
+  </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  //Need to return false here, otherwise the event will bubble up and trigger the hide on body
+  $(document).ready(function() {
+    $('.drop-menu').click(function() {
+      $('.drop-menu-content').toggle();
+      return false;
+    });
+    $('body, .drop-menu-content span').click(function() {
+      $('.drop-menu-content').hide();
+    });
+  });
+  //]]>
+  </script>
+</head>
+<body>
+  <div id="menu">
+    <ul>
+      <li><a href="/" class="first">Home</a></li>
+      <li><a href="/order_report.html" class="value">Order Computer Calculated Value Report</a></li>
+      <li><a href="/php/order_appraisal.php">Order An Appraisal</a></li>
+      <li class="current_page_item"><span class="drop-menu">Sample Reports</span>
+        <ul class="drop-menu-content">
+          <li><a target="_blank" href="/documents/value_check.pdf">Computer Calculated Report ($20)</a></li> <br />
+          <li><a target="_blank" href="/documents/desktop.pdf">Computer Desk Top Appraisal ($45)</a></li> <br />
+          <li><a target="_blank" href="/documents/exterior.pdf">Desk Top/Drive by Appraisal ($95)</a></li>
+        </ul>
+      </li>
+      <li><a href="/FAQ.html">FAQ</a></li>
+      <li><a href="/about_us.html">About Us</a></li>
+      <li><a href="/php/contact.php">Contact Us</a></li>
+      <li>
+        <div class="menu-content">
+        <ul>
+          <a href="/php/contact.php">Contact Us</a>
+        </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

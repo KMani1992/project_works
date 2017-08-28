@@ -1,0 +1,1 @@
+document.write('Copyright (C) India YAMAHA Motor Pvt. Ltd. All rights reserved.');

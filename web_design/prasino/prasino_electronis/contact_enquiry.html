@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>:: Prasino Electronics Pvt Ltd ::</title>
+
+<link rel="icon" type="image/png" href="favicon.ico" />
+
+<link rel="stylesheet" href="css/bootstrap.css"/>
+<link rel="stylesheet" href="css/bootstrap-theme.css"/>
+<link rel="stylesheet" href="css/master_style.css"/>
+<!-- jQuery library (served from Google) -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.js"></script>
+<!-- bxSlider CSS file -->
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/npm.js" ></script>
+<script type="text/javascript" src="js/action.js"></script>
+
+
+</head>
+<body>
+<div class="padtop"></div>
+<div class="container">
+		 <form id="form1" onsubmit="return valid_chk()" name="form" method="post" action="mail.php" role="form">
+            <div class="form-group1 col-md-6 col-sm-6 col-xs-6">
+              <input type="text" class="form-control1" name="name" placeholder="NAME">
+            </div>
+            <div class="form-group1 col-md-6 col-sm-6 col-xs-6">
+              <input type="text" class="form-control1" name="email" placeholder="EMAIL ID">
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group1 col-md-6 col-sm-6 col-xs-6 ">
+               <input type="text" class="form-control1" name="phone" placeholder="PHONE NO" onkeypress="return isNumberKey(event)" maxlength="10">
+            </div>
+            <div class="form-group1 col-md-6 col-sm-6 col-xs-6">
+              <input type="text" class="form-control1" name="subj" placeholder="SUBJECT">
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group1 col-md-12">
+              <textarea class="form-control1 txt_area" rows="3" name="message" placeholder="MESSAGE"></textarea>
+            </div>
+            
+            <div class="col-md-12">
+              <input type="submit" class="form-control2 submit" value="SUBMIT">
+            </div>
+            <!--    for offline testing enable below div for display-->
+    		<!--    <div></div>-->
+            
+          </form>
+</div>
+
+
+<script type="text/javascript" src="js/contact_validation.js"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.bxslider').bxSlider({	   
+        controls: true,
+        pager: false,  auto: true
+  });
+});
+
+$(document).ready(function(){
+  $('.slider4').bxSlider({
+	  controls: true,
+        pager: false,  auto: true,
+    slideWidth: 274,
+    minSlides: 1,
+    maxSlides: 4,
+    moveSlides: 1,
+    slideMargin: 10
+  });
+});
+
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+$(document).ready(function(){
+$( "div" ).last().css( "display", "none" );
+});
+
+</script>
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXX-Y', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+</body>
+</html>

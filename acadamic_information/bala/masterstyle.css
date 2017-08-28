@@ -1,0 +1,298 @@
+@charset "utf-8";
+/* CSS Document */
+body
+
+{
+	margin:0;
+	padding:0;
+}
+#wrapper
+{
+	margin:0 auto;
+	padding:0;
+	width:1000px;
+	height:600px;
+	
+
+}
+
+#inner
+{
+	margin:0 auto;
+	padding:0;
+	width:990px;
+	height:600px;
+	
+
+}
+#header
+{
+	margin:0;
+	padding:0;
+	background:#990;
+		width:990px;
+		height:100px;
+			border-bottom:5px  #996600 solid;
+	
+}
+#header_left
+{
+		margin:0;
+		padding:0;
+		width:250px;
+		height:100px;
+		float:left;
+	
+		
+}
+
+#header_right
+{
+		margin:0;
+		padding:0;
+		width:650px;
+		height:100px;
+		float:right
+		
+}	
+#header_right h1
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	color:#CCC;
+	
+}
+
+#header_right h3
+{
+	font:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	font-style:italic;
+	padding-right:20px;
+	color:#CCC;
+	
+}
+#main
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+	padding-top:50px;
+	background:#09F;
+	
+}
+#main ul
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	
+}
+#main h3
+{
+	margin:0;
+	padding:0;
+	margin:0 auto;
+	font:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:-50px;
+	margin-bottom:20px;
+	
+	
+}
+#main ul li
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:auto;
+	padding-left:20px;
+	display:inline;
+	
+	
+}
+#main ul li a img
+{
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+		  opacity:0.7;
+		  
+	
+}
+#main ul li a img:hover
+{
+	width:175px;
+	height:125px;
+	opacity:1;
+	
+}
+#main #logout
+{
+	background:#960;
+	padding:3px 3px;
+	border-radius:2px;
+	float:right;
+	text-decoration:none;
+	color:#FFF;
+	margin-right:10px;
+	margin-top:20px;
+	padding-left:5px;
+	padding-right:5px;
+	
+}
+#main #logout a
+{
+	color:#9F0;
+	text-decoration:none;
+}
+#main #logout a:hover{
+	text-decoration:underline;
+	color:#ffffff;
+}
+#header_menu{
+	margin:0 auto;
+	padding:0px;
+	background:#f0c708;
+	border-bottom:1px solid #996600;
+	width:990px;
+	height:20px;
+	color:#ffffff;
+}
+#header_menu_right{
+	background:#960;	
+	border-radius:2px;
+	float:right;
+	text-decoration:none;
+	color:#FFF;
+	padding-left:5px;
+	padding-right:5px;	
+	position:relative;
+}
+#header_menu_right a{
+	color:#9F0;
+	text-decoration:none;
+}
+#header_menu_right a:hover{
+	text-decoration:underline;
+	color:#ffffff;
+}
+#addstutab
+{
+	padding-top:5px;
+	margin-left:20px;
+}
+#stuview{
+	
+	color:#ffffff;
+	width:100%;
+	height:auto;
+}
+#tabheader{
+	background-color:#996600;
+	
+}
+#header_menu_left{
+	background:#960;
+	padding-top::3px;
+	border-radius:2px;
+	float:left;
+	text-decoration:none;
+	color:#FFF;
+	padding-left:5px;
+	padding-right:5px;	
+	position:absolute;
+}
+#header_menu_left a{
+	color:#9F0;
+	text-decoration:none;
+}
+#header_menu_left a:hover{
+	text-decoration:underline;
+	color:#ffffff;
+}
+#outeroverlap{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.9;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	z-index:3000;
+	display:none;
+	
+}
+#inneroverlap{
+	width:600px;
+	height:400px;
+	background-color:#ffffff;
+	opacity:1;
+	position:absolute;
+	top:20%;
+	bottom:20%;
+	left:25%;
+	right:25%;
+	z-index:3500;
+	border:1px solid #996600;
+	
+	
+}
+#closebtn{
+	position:absolute;
+	top:-10px;
+	right:-10px;	
+	padding:7px;
+	background-color:#000;
+	color:#ffffff;
+	border:1px solid #CCC;	
+	text-align:center;
+	cursor:pointer;	
+}
+#editstutab{
+	padding-left:20px;
+	padding-top:20px;
+}
+
+#outeroverlapadd{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.9;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	z-index:3000;
+	display:none;
+	
+}
+#inneroverlapadd{
+	width:600px;
+	height:400px;
+	background-color:#ffffff;
+	opacity:1;
+	position:absolute;
+	top:20%;
+	bottom:20%;
+	left:25%;
+	right:25%;
+	z-index:3500;
+	border:1px solid #996600;
+	
+}
+#addstutab{
+	padding-left:20px;
+	padding-top:20px;
+}
